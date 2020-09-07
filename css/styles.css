@@ -7,6 +7,7 @@ body {
 a:hover {
   opacity: 0.7;
 }
+
 .nav-bar {
   background-color: #2b2e4a;
   width: 100%;
@@ -46,6 +47,7 @@ a:hover {
   line-height: 2;
 }
 
+
 h1 {
   margin: 25px auto 0;
   font-family: 'Sacramento', cursive;
@@ -69,11 +71,13 @@ h3 {
   font-family: 'Syne', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
-  color: white;
+  color: #2b2e4a;
 }
 
 h4 {
   font-size: 1.25rem;
+  color: #2b2e4a;
+  font-weight: bolder;
 }
 
 .pro {
@@ -81,12 +85,11 @@ h4 {
 }
 
 .middle-container {
-  background-color: #903749;
+  background-color: #e84545;
 }
 
 .profile {
   padding: 50px;
-  background-color: #e84545;
 }
 
 .dp {
@@ -98,13 +101,13 @@ h4 {
   width: 150px;
   height: 150px;
   float: right;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .dl-img {
   width: 150px;
   height: 150px;
-  margin-right: 30px;
+  margin-right: 50px;
   float: left;
 }
 
@@ -124,13 +127,13 @@ hr {
   border-style: dotted none none;
   width: 5%;
   border-width: 7px;
-  color: #eaf6f6;
+  color: #2b2e4a;
 }
 
 .contact-me {
   line-height: 2;
   padding: 50px;
-  background-color: #e84545;
+  background-color: #903749;
 }
 
 p {
