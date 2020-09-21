@@ -4,6 +4,13 @@ body {
   text-align: center;
 }
 
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 7px;
+  color: #2b2e4a;
+}
+
 a:hover {
   opacity: 0.7;
 }
@@ -45,6 +52,7 @@ a:hover {
   padding: 100px 25px 10px;
   background-color: #2b2e4a;
   line-height: 2;
+  color: white;
 }
 
 
@@ -59,13 +67,9 @@ h2 {
   margin: 10px auto 0;
   font-family: 'Syne', sans-serif;
   font-size: 2rem;
-  color: white;
+  color: #2b2e4a;
 }
 
-.subtitle {
-  font-weight: normal;
-  margin: 0 auto 0;
-}
 
 h3 {
   font-family: 'Syne', sans-serif;
@@ -80,74 +84,66 @@ h4 {
   font-weight: bolder;
 }
 
-.pro {
-  text-decoration: underline;
-}
-
 .middle-container {
-  background-color: #e84545;
+  padding: 25px;
+  line-height: 1.75;
 }
 
-.profile {
-  padding: 50px;
+.opening {
+  text-align: left;
 }
 
-.dp {
-  width: 200px;
-  height: 200px;
+.opening p {
+  font-size: 18px;
 }
 
-.images {
-  width: 150px;
-  height: 150px;
+.leisure-interests {
+  padding: 25px;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.leisure-interests p {
+  font-size: 20px;
+}
+
+.interest-row {
+  padding: 25px;
+}
+
+.film {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 50px;
+}
+
+.book {
+  width: 100px;
+  height: 100px;
   float: right;
   margin-left: 50px;
 }
 
-.dl-img {
-  width: 150px;
-  height: 150px;
-  margin-right: 50px;
+.write {
+  width: 100px;
+  height: 100px;
   float: left;
+  margin-right: 50px;
 }
 
-.skills {
-  padding-top: 25px;
+.foodie {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-left: 50px;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 50px auto 50px;
-  padding: 20px;
-  text-align: left;
-  line-height: 2;
-}
-
-hr {
-  border-style: dotted none none;
-  width: 5%;
-  border-width: 7px;
-  color: #2b2e4a;
-}
-
-.contact-me {
-  line-height: 2;
-  padding: 50px;
-  background-color: #903749;
-}
-
-p {
-  color: #f6f6f6;
-}
-
-.btn {
-  border-radius: 10px;
-  color: #1a1a2e;
-  font-size: 20px;
-  text-decoration: none;
-  background-color: #f6f6f6;
-  padding: 10px;
-  margin-top: 20px;
+.musik {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 50px;
 }
 
 .bottom-container {
