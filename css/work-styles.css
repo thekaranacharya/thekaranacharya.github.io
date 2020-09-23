@@ -4,13 +4,6 @@ body {
   text-align: center;
 }
 
-hr {
-  border-style: dotted none none;
-  width: 5%;
-  border-width: 7px;
-  color: #2b2e4a;
-}
-
 a:hover {
   opacity: 0.7;
 }
@@ -33,7 +26,6 @@ a:hover {
   height: 60px;
 }
 
-
 .nav-links {
   position: relative;
   display: inline-block;
@@ -48,12 +40,17 @@ a:hover {
 }
 
 .top-container {
-  padding: 100px 25px 10px;
+  padding: 100px 25px 20px;
   background-color: #2b2e4a;
   line-height: 2;
-  color: white;
 }
 
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 7px;
+  color: #2b2e4a;
+}
 
 h1 {
   margin: 25px auto 0;
@@ -84,70 +81,21 @@ h4 {
 }
 
 .middle-container {
-  padding: 25px;
+  text-align: left;
+  padding: 25px 25px 25px;
   line-height: 1.75;
 }
 
-.opening {
-  text-align: left;
+.btn {
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  color: #2b2e4a;
+  text-decoration: none;
+  padding: 10px;
 }
 
-.opening p {
-  font-size: 18px;
-}
-
-.leisure-interests {
-  padding: 25px;
-  line-height: 1.75;
-  text-align: left;
-}
-
-.leisure-interests p {
-  font-size: 20px;
-}
-
-.interest-row {
-  padding: 25px;
-}
-
-.film {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 50px;
-}
-
-.book {
-  width: 100px;
-  height: 100px;
-  float: right;
-  margin-left: 50px;
-}
-
-.write {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 50px;
-}
-
-.logo {
-  width: 20px;
-  height: 20px;
-}
-
-.foodie {
-  width: 100px;
-  height: 100px;
-  float: right;
-  margin-left: 50px;
-}
-
-.musik {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 50px;
+.result {
+  width: 60%;
 }
 
 .bottom-container {
