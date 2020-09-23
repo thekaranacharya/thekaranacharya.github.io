@@ -64,6 +64,7 @@ h2 {
   font-family: 'Syne', sans-serif;
   font-size: 2rem;
   color: #2b2e4a;
+  text-decoration: underline;
 }
 
 
@@ -71,6 +72,7 @@ h3 {
   font-family: 'Syne', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
+  text-decoration: underline;
   color: #2b2e4a;
 }
 
@@ -82,11 +84,19 @@ h4 {
 
 .middle-container {
   text-align: left;
-  padding: 25px 25px 25px;
+  padding: 25px;
   line-height: 1.75;
+  background-color: #e84545;
+  color: #2b2e4a;
+}
+
+.project-row {
+  padding: 25px;
+  text-align: left;
 }
 
 .btn {
+  margin-top: 10px;
   border-radius: 10px;
   background-color: #f6f6f6;
   color: #2b2e4a;
