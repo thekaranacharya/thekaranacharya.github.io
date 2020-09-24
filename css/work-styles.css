@@ -1,4 +1,3 @@
-/* background-color: #e84545; */
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
@@ -37,7 +36,7 @@ a:hover {
 .nav-links a {
   padding: 10px;
   text-decoration: none;
-  color: #f6f6f6;
+  color: #eeeeee;
 }
 
 .top-container {
@@ -50,7 +49,7 @@ hr {
   border-style: dotted none none;
   width: 5%;
   border-width: 7px;
-  color: #f6f6f6;
+  color: #423144;
 }
 
 h1 {
@@ -64,7 +63,7 @@ h2 {
   margin: 10px auto 0;
   font-family: 'Syne', sans-serif;
   font-size: 2rem;
-  color: #e94560;
+  color: #1a1a2e;
   text-decoration: underline;
 }
 
@@ -73,26 +72,26 @@ h3 {
   font-family: 'Syne', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
-  color: #e94560;
+  color: #900d0d;
 }
 
 h4 {
   font-size: 1.25rem;
-  color: #e94560;
+  color: #1a1a2e;
   font-weight: bolder;
 }
 
 p {
   font-size: 18px;
-  color: #f6f6f6;
+  color: #423144;
 }
 
 .middle-container {
   text-align: left;
   padding: 25px;
   line-height: 1.5;
-  background-color: #16213e;
-  color: #2b2e4a;
+  background-color: #eeeeee;
+  /* color: #2b2e4a; */
 }
 
 .research {
@@ -100,8 +99,8 @@ p {
 }
 
 .projects {
-  background-color: #0f3460;
-  padding: 25px;
+  background-color: #eeeeee;
+  /* padding: 25px; */
   text-align: left;
 }
 
@@ -113,8 +112,9 @@ p {
 .btn {
   border-radius: 10px;
   background-color: #f6f6f6;
-  color: #2b2e4a;
   text-decoration: none;
+  color: #1a1a2e;
+  font-weight: bold;
   padding: 10px;
 }
 
@@ -126,7 +126,7 @@ p {
 
 .bottom-container {
   padding: 20px 0 20px;
-  background-color: #e94560;
+  background-color: #900d0d;
 }
 
 .profile-link {
@@ -138,7 +138,7 @@ p {
   margin-top: 25px;
   padding-top: 25px;
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 .bottom-container a:visited {
@@ -147,4 +147,5 @@ p {
 
 .footer-text {
   font-size: 10px;
+  color: #ffdbc5;
 }

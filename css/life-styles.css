@@ -8,7 +8,7 @@ hr {
   border-style: dotted none none;
   width: 5%;
   border-width: 7px;
-  color: #f6f6f6;
+  color: #423144;
 }
 
 a:hover {
@@ -44,7 +44,7 @@ a:hover {
 .nav-links a {
   padding: 10px;
   text-decoration: none;
-  color: #f6f6f6;
+  color: #eeeeee;
 }
 
 .top-container {
@@ -55,7 +55,8 @@ a:hover {
 }
 
 p {
-  color: #f6f6f6;
+  color: #1a1a2e;
+  font-size: 18px;
 }
 
 
@@ -70,7 +71,7 @@ h2 {
   margin: 10px auto 0;
   font-family: 'Syne', sans-serif;
   font-size: 2rem;
-  color: #e94560;
+  color: #1a1a2e;
 }
 
 
@@ -78,35 +79,36 @@ h3 {
   font-family: 'Syne', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
-  color: #e94560;
+  color: #900d0d;
 }
 
 h4 {
   font-size: 1.25rem;
-  color: #e94560;
+  color: #cf1b1b;
   font-weight: bolder;
 }
 
 .middle-container {
-  padding: 25px 0 0;
   line-height: 1.75;
-  background-color: #16213e;
+  background-color: #eeeeee;
+  /* color: #1a1a2e; */
 }
 
-.opening {
+.opening-quote {
   padding: 25px;
   text-align: left;
+  background-color: #cf1b1b;
 }
 
-.opening p {
-  font-size: 18px;
+.opening-quote p {
+  color: #eeeeee;
 }
 
 .leisure-interests {
   padding: 25px;
   line-height: 1.75;
   text-align: left;
-  background-color: #0f3460;
+  background-color: #eeeeee;
 }
 
 .leisure-interests p {
@@ -114,7 +116,7 @@ h4 {
 }
 
 .interest-row {
-  padding: 25px 25px 50px;
+  padding: 25px;
 }
 
 .film {
@@ -130,6 +132,7 @@ h4 {
   height: 100px;
   float: right;
   margin-left: 50px;
+  padding-bottom: 10px;
 }
 
 .write {
@@ -137,6 +140,7 @@ h4 {
   height: 100px;
   float: left;
   margin-right: 50px;
+  padding-bottom: 10px;
   padding-bottom: 10px;
 }
 
@@ -149,6 +153,7 @@ h4 {
   border-radius: 10px;
   background-color: #f6f6f6;
   color: #2b2e4a;
+  font-weight: bold;
   text-decoration: none;
   padding: 10px;
 }
@@ -158,6 +163,7 @@ h4 {
   height: 100px;
   float: right;
   margin-left: 50px;
+  padding-bottom: 10px;
 }
 
 .musik {
@@ -165,11 +171,12 @@ h4 {
   height: 100px;
   float: left;
   margin-right: 50px;
+  padding-bottom: 10px;
 }
 
 .bottom-container {
   padding: 30px 0 20px;
-  background-color: #e94560;
+  background-color: #900d0d;
 }
 
 .profile-link {
@@ -181,7 +188,7 @@ h4 {
   margin-top: 25px;
   padding-top: 25px;
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 .bottom-container a:visited {
@@ -190,4 +197,5 @@ h4 {
 
 .footer-text {
   font-size: 10px;
+  color: #ffdbc5;
 }

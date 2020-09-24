@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Work</title>
+  <title>Education & Projects</title>
   <link rel="stylesheet" href="css/work-styles.css">
   <link rel="icon" href="img/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&family=Sacramento&family=Syne&display=swap" rel="stylesheet">
@@ -41,8 +41,24 @@
       </li>
       <p>
         <strong>Bachelor of Engineering (B.E.) Computer Engineering.</strong><br>
-        <strong>GPA : 8.85 / 10.</strong><br>
+        GPA : 8.85 / 10<br>
+        <strong>Stood 6th across all college departments for a freshman year GPA - 9.7 / 10.</strong><br>
         AUG 2016 - PRESENT
+      </p>
+    </ul>
+
+    <ul>
+
+      <li>
+        <h3>Goethe Institut - Max Müller Bhavan, Pune</h3>
+      </li>
+      <p>
+        <strong>Geothe Zertifikat - Level B2.1</strong><br>
+        DEC 2017 <br><br>
+        <strong>Proud recipient of the Kultusminister Konferenz Pädagogischer Austauschdienst(PAD) 2014 Scholarship.</strong><br>
+        Represented India at an International level in Germany.
+        Was <strong>one of the 8 students to be selected from India</strong> based on my German language skills.<br>
+        The said scholarship consisted of a fully-sponsored month-long tour through Germany. Comprised of a 2-week stay with a host family alongwith an attendance at a local school.
       </p>
     </ul>
 
@@ -55,113 +71,116 @@
       </h3>
     </div>
 
-  </div>
-  <div class="projects">
-    <h2>My Projects</h2>
+    <hr>
 
-    <div class="project-row">
-      <h3> > Vehicle detection & Classification on Indian streets</h3>
-      <p>
-        Developed an object detection & classification model to detect vehicles on the crowded streets of
-        India and classify them into the following types - <br>
-        <strong>Car, Bus, Truck, Two-wheeler & Three-wheeler.</strong> <br>
+    <div class="projects">
+      <h2>My Projects</h2>
+
+      <div class="project-row">
+        <h3>Vehicle detection & Classification on Indian streets</h3>
+        <p>
+          Developed an object detection & classification model to detect vehicles on the crowded streets of
+          India and classify them into the following types - <br>
+          <strong>Car, Bus, Truck, Two-wheeler & Three-wheeler.</strong> <br>
+          <br>
+          <strong>Tools & Frameworks used : TensorFlow, ImageAI, LabelImg </strong><br>
+        </p>
+        <h4>Result:</h4>
+        <p>
+        The model is able to detect and classify vehicles from both - images & videos with a
+        <strong>Mean Detection Probability - 90%</strong>! <br>
+        Following is the output on an image never seen by the model - <br><br>
+        <img class="result" src="img/output-4.jpg" alt="output-4"> <br><br>
+        As you can see, in such a crowded street, the model is able to detect a truck (even just the back of one),
+        a car, and multiple two-wheelers and rickshaws (with some <strong>probabilities over 96%!</strong>)
+        </p>
+      </div>
+
+      <br>
+      <hr>
+
+      <div class="project-row">
+        <h3>Temperature Forecasting using Deep Learning</h3>
+        <p>
+          Predicting Daily Min. Temperatures in Melbourne, Australia using a combination of
+          Convolutional and Recurrent Neural Networks.<br>
+          <strong>Tools & Frameworks used : TensorFlow-Keras </strong><br>
+        </p>
+        <h4>Result:</h4>
+        <img class="result" src="img/temp-pred-plot.png" alt="temp-pred-plot"> <br>
+        <p><strong>A Mean Absolute Error (MAE) of just 1.78!</strong></p>
         <br>
-        <strong>Tools & Frameworks used : TensorFlow, ImageAI, LabelImg </strong><br>
-      </p>
-      <h4>Result:</h4>
-      <p>
-      The model is able to detect and classify vehicles from both - images & videos with a
-      <strong>Mean Detection Probability - 90%</strong>! <br>
-      Following is the output on an image never seen by the model - <br><br>
-      <img class="result" src="img/output-4.jpg" alt="output-4"> <br><br>
-      As you can see, in such a crowded street, the model is able to detect a truck (even just the back of one),
-      a car, and multiple two-wheelers and rickshaws (with some <strong>probabilities over 96%!</strong>)
-      </p>
-    </div>
-
-    <br>
-    <hr>
-
-    <div class="project-row">
-      <h3> > Temperature Forecasting using Deep Learning</h3>
-      <p>
-        Predicting Daily Min. Temperatures in Melbourne, Australia using a combination of
-        Convolutional and Recurrent Neural Networks.<br>
-        <strong>Tools & Frameworks used : TensorFlow-Keras </strong><br>
-      </p>
-      <h4>Result:</h4>
-      <img class="result" src="img/temp-pred-plot.png" alt="temp-pred-plot"> <br>
-      <p><strong>A Mean Absolute Error (MAE) of just 1.78!</strong></p>
-      <br>
-      <a class="btn" href="https://github.com/thekaranacharya/DeepLearning-Temperature-Prediction">
-        <img src="img/github.png" alt=""> View on GitHub
-      </a>
-
-    </div>
-
-    <hr>
-
-    <div class="project-row">
-      <h3> > Novel Poetry Generation using NLP</h3>
-      <p>
-        Generating a novel Irish poem using a set of Long Short-Term Memory cells (Recurrent Neural Networks).<br>
-        <strong>Tools & Frameworks used : TensorFlow-Keras </strong><br>
-      </p>
-      <h4>Result:</h4>
-      <img class="result" src="img/novel-poem.png" alt="novel-poem"> <br>
-      <p>
-      "Then came a sailor" was the only set of words I provided to the trained model as a starting line.
-      The next 100 words have been generated solely by the network! <br>
-      P.S. If you look closely, there are very less repetitions in the predicted words. <br>
-      It's quite common to see a large number of repeated words in an NLP model prediction.
-      But here, some hyperparameters were tuned to minimise the number of repetitions.<br>
-      </p>
-      <a class="btn" href="https://github.com/thekaranacharya/nlp-poetry-generation">
-        <img src="img/github.png" alt=""> View on GitHub
-      </a>
-
-    </div>
-
-    <hr>
-
-    <div class="project-row">
-      <h3> > Personal Website</h3>
-      <p>
-        You remember 10% of what you read, 20% of what you see/hear.<br>
-        And 70% of what you do. Currently, learning web dev while building my personal website. <br>
-        <strong>Languages used : HTML5 & CSS3 </strong><br>
-        Want to understand recursion? <br> Head over now ⤵️<br>
-      </p>
-      <br>
-        <a class="btn" href="https://thekaranacharya.github.io">
-          Decoding Karan Acharya.
+        <a class="btn" href="https://github.com/thekaranacharya/DeepLearning-Temperature-Prediction">
+          <img src="img/github.png" alt=""> View on GitHub
         </a>
 
+      </div>
+
+      <hr>
+
+      <div class="project-row">
+        <h3>Novel Poetry Generation using NLP</h3>
+        <p>
+          Generating a novel Irish poem using a set of Long Short-Term Memory cells (Recurrent Neural Networks).<br>
+          <strong>Tools & Frameworks used : TensorFlow-Keras </strong><br>
+        </p>
+        <h4>Result:</h4>
+        <img class="result" src="img/novel-poem.png" alt="novel-poem"> <br>
+        <p>
+        "Then came a sailor" was the only set of words I provided to the trained model as a starting line.
+        The next 100 words have been generated solely by the network! <br>
+        P.S. If you look closely, there are very less repetitions in the predicted words. <br>
+        It's quite common to see a large number of repeated words in an NLP model prediction.
+        But here, some hyperparameters were tuned to minimise the number of repetitions.<br>
+        </p>
+        <a class="btn" href="https://github.com/thekaranacharya/nlp-poetry-generation">
+          <img src="img/github.png" alt=""> View on GitHub
+        </a>
+
+      </div>
+
+      <hr>
+
+      <div class="project-row">
+        <h3>Personal Website</h3>
+        <p>
+          You remember 10% of what you read, 20% of what you see/hear.<br>
+          And 70% of what you do. Currently, learning web dev while building my personal website. <br>
+          <strong>Languages used : HTML5 & CSS3 </strong><br>
+          Want to understand recursion? <br> Head over now ⤵️<br>
+        </p>
+        <br>
+          <a class="btn" href="https://thekaranacharya.github.io">
+            Decoding Karan Acharya.
+          </a>
+
+      </div>
+
+      <hr>
+
+      <div class="project-row">
+        <h3>A comparative analysis of different Keras layers to detect sentiment from tweets</h3>
+        <p>
+          Performed a comparative study of the effects of different Keras layers - LSTMs, GRUs and Conv1D on
+          the Sentiment140 dataset with 1.6M tweets.<br>
+        <strong>Tools & Frameworks used : TensorFlow-Keras </strong><br>
+      </p>
+        <h4>Result:</h4>
+        <p>The following result is achieved with the model with the set of layers - <br>
+          <strong>Embedding - Dropout - Conv1D - MaxPooling1D - Bidirectional LSTM - 2 Dense layers.</strong>
+        </p>
+        <img class="result" src="img/comp-study.png" alt="novel-poem"> <br>
+        <p>As you can see here, there is NOT a steep increase in the validation loss.<br>
+          This means, the confidence in prediction on the validation set is NOT decreasing over the course of the epochs.
+        </p>
+        <a class="btn" href="https://github.com/thekaranacharya/tweet-sentiment-detection">
+          <img src="img/github.png" alt=""> View on GitHub
+        </a> <br>
+      </div>
+
     </div>
 
-    <hr>
-
-    <div class="project-row">
-      <h3> > A comparative analysis of different Keras layers to detect sentiment from tweets</h3>
-      <p>
-        Performed a comparative study of the effects of different Keras layers - LSTMs, GRUs and Conv1D on
-        the Sentiment140 dataset with 1.6M tweets.<br>
-      <strong>Tools & Frameworks used : TensorFlow-Keras </strong><br>
-    </p>
-      <h4>Result:</h4>
-      <p>The following result is achieved with the model with the set of layers - <br>
-        <strong>Embedding - Dropout - Conv1D - MaxPooling1D - Bidirectional LSTM - 2 Dense layers.</strong>
-      </p>
-      <img class="result" src="img/comp-study.png" alt="novel-poem"> <br>
-      <p>As you can see here, there is NOT a steep increase in the validation loss.<br>
-        This means, the confidence in prediction on the validation set is NOT decreasing over the course of the epochs.
-      </p>
-      <a class="btn" href="https://github.com/thekaranacharya/tweet-sentiment-detection">
-        <img src="img/github.png" alt=""> View on GitHub
-      </a> <br>
-    </div>
-
-  </div>
+</div>
 
 
 
@@ -184,7 +203,7 @@
       <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> &
       <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a>
       from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    <p class="footer-text">© 2020 Karan Acharya. All Rights Reserved.</p>
+    <p class="footer-text"><strong>© 2020 Karan Acharya. All Rights Reserved.</strong></p>
   </div>
 
 </body>
