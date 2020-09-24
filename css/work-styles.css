@@ -1,3 +1,4 @@
+/* background-color: #e84545; */
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
@@ -9,7 +10,7 @@ a:hover {
 }
 
 .nav-bar {
-  background-color: #2b2e4a;
+  background-color: #1a1a2e;
   width: 100%;
   position: fixed;
   padding-bottom: 90px;
@@ -41,7 +42,7 @@ a:hover {
 
 .top-container {
   padding: 100px 25px 20px;
-  background-color: #2b2e4a;
+  background-color: #1a1a2e;
   line-height: 2;
 }
 
@@ -49,7 +50,7 @@ hr {
   border-style: dotted none none;
   width: 5%;
   border-width: 7px;
-  color: #2b2e4a;
+  color: #f6f6f6;
 }
 
 h1 {
@@ -63,7 +64,7 @@ h2 {
   margin: 10px auto 0;
   font-family: 'Syne', sans-serif;
   font-size: 2rem;
-  color: #2b2e4a;
+  color: #e94560;
   text-decoration: underline;
 }
 
@@ -72,31 +73,44 @@ h3 {
   font-family: 'Syne', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
-  text-decoration: underline;
-  color: #2b2e4a;
+  color: #e94560;
 }
 
 h4 {
   font-size: 1.25rem;
-  color: #2b2e4a;
+  color: #e94560;
   font-weight: bolder;
+}
+
+p {
+  font-size: 18px;
+  color: #f6f6f6;
 }
 
 .middle-container {
   text-align: left;
   padding: 25px;
-  line-height: 1.75;
-  background-color: #e84545;
+  line-height: 1.5;
+  background-color: #16213e;
   color: #2b2e4a;
 }
 
-.project-row {
+.research {
+  padding: 25px 0 25px;
+}
+
+.projects {
+  background-color: #0f3460;
   padding: 25px;
   text-align: left;
 }
 
+.project-row {
+  padding: 25px 10px 25px;
+}
+
+
 .btn {
-  margin-top: 10px;
   border-radius: 10px;
   background-color: #f6f6f6;
   color: #2b2e4a;
@@ -105,12 +119,14 @@ h4 {
 }
 
 .result {
-  width: 60%;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
 }
 
 .bottom-container {
   padding: 20px 0 20px;
-  background-color: #53354a;
+  background-color: #e94560;
 }
 
 .profile-link {

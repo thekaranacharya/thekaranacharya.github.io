@@ -8,7 +8,7 @@ hr {
   border-style: dotted none none;
   width: 5%;
   border-width: 7px;
-  color: #2b2e4a;
+  color: #f6f6f6;
 }
 
 a:hover {
@@ -16,7 +16,7 @@ a:hover {
 }
 
 .nav-bar {
-  background-color: #2b2e4a;
+  background-color: #1a1a2e;
   width: 100%;
   position: fixed;
   padding-bottom: 90px;
@@ -49,9 +49,13 @@ a:hover {
 
 .top-container {
   padding: 100px 25px 10px;
-  background-color: #2b2e4a;
+  background-color: #1a1a2e;
   line-height: 2;
   color: white;
+}
+
+p {
+  color: #f6f6f6;
 }
 
 
@@ -66,7 +70,7 @@ h2 {
   margin: 10px auto 0;
   font-family: 'Syne', sans-serif;
   font-size: 2rem;
-  color: #2b2e4a;
+  color: #e94560;
 }
 
 
@@ -74,21 +78,23 @@ h3 {
   font-family: 'Syne', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
-  color: #2b2e4a;
+  color: #e94560;
 }
 
 h4 {
   font-size: 1.25rem;
-  color: #2b2e4a;
+  color: #e94560;
   font-weight: bolder;
 }
 
 .middle-container {
-  padding: 25px;
+  padding: 25px 0 0;
   line-height: 1.75;
+  background-color: #16213e;
 }
 
 .opening {
+  padding: 25px;
   text-align: left;
 }
 
@@ -100,6 +106,7 @@ h4 {
   padding: 25px;
   line-height: 1.75;
   text-align: left;
+  background-color: #0f3460;
 }
 
 .leisure-interests p {
@@ -107,7 +114,7 @@ h4 {
 }
 
 .interest-row {
-  padding: 25px;
+  padding: 25px 25px 50px;
 }
 
 .film {
@@ -115,6 +122,7 @@ h4 {
   height: 100px;
   float: left;
   margin-right: 50px;
+  padding-bottom: 10px;
 }
 
 .book {
@@ -129,11 +137,20 @@ h4 {
   height: 100px;
   float: left;
   margin-right: 50px;
+  padding-bottom: 10px;
 }
 
 .logo {
   width: 20px;
   height: 20px;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  color: #2b2e4a;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .foodie {
@@ -151,8 +168,8 @@ h4 {
 }
 
 .bottom-container {
-  padding: 20px 0 20px;
-  background-color: #53354a;
+  padding: 30px 0 20px;
+  background-color: #e94560;
 }
 
 .profile-link {

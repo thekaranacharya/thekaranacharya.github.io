@@ -3,13 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact-styles.css">
     <link rel="icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&family=Sacramento&family=Syne&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="nav-bar">
+      <a href="index.html">
+        <img class="dp-icon" src="img/favicon-img.png" alt="programmer-icon">
+      </a>
+      <div class="nav-links">
+        <a href="work.html">education & projects</a>
+        <a href="life.html">life</a>
+        <a href="contact.html">contact me</a>
+      </div>
+    </div>
+
     <div class="top-container">
-      <h3>Page currently under construction!</h3>
+      <h1>Contact Me</h1>
+    </div>
+
+    <div class="middle-container">
+      <h2>I'm glad you're here to contact me.</h2>
+      <h3>(I don't use any social media.)</h3>
+      <h4>Fill the form to contact me -</h4>
+
+      <form class="contact-form" action="mailto:karan7acharya@gmail.com" method="post" enctype="text/plain">
+
+          <div class="contact-form">
+            <label for="name">Your Name :</label><br>
+            <input type="text" name="" class="ntext" value=""><br>
+          </div>
+
+          <div class="contact-form">
+            <label for="email">Your E-mail :</label><br>
+            <input type="email" name="" class="ntext" value=""><br>
+          </div>
+
+          <div class="contact-form">
+            <label for="msg">Your Message :</label><br>
+            <input type="text" name="msg" class="msg" value=""><br>
+          </div>
+
+          <input type="submit" name="" value="E-mail me!" class="sub-btn"><br>
+      </form>
+
     </div>
   </body>
 </html>

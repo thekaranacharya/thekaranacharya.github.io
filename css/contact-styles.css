@@ -51,7 +51,7 @@ a:hover {
 h1 {
   margin: 25px auto 0;
   font-family: 'Sacramento', cursive;
-  font-size: 6rem;
+  font-size: 5rem;
   color: white;
 }
 
@@ -62,10 +62,6 @@ h2 {
   color: #e94560;
 }
 
-.subtitle {
-  font-weight: normal;
-  margin: 0 auto 0;
-}
 
 h3 {
   font-family: 'Syne', sans-serif;
@@ -80,98 +76,46 @@ h4 {
   font-weight: bolder;
 }
 
-.pro {
-  text-decoration: underline;
-}
-
 .middle-container {
+  padding: 10px;
+  text-align: left;
   background-color: #16213e;
 }
 
-.profile {
-  padding: 50px;
+input {
+  font-family: inherit;
 }
 
-.dp {
-  width: 250px;
+.contact-form {
+  padding: 25px 0 25px;
+  font-family: inherit;
+  color: #f6f6f6;
+}
+
+.ntext {
+  width: 500px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.msg {
+  width: 700px;
   height: 250px;
-}
-
-.images {
-  width: 150px;
-  height: 150px;
-  float: right;
-  margin-left: 50px;
-}
-
-.dl-img {
-  width: 150px;
-  height: 150px;
-  margin-right: 50px;
-  float: left;
-}
-
-.skills {
-  padding-top: 25px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 50px auto 50px;
-  padding: 20px;
+  font-size: 20px;
   text-align: left;
-  line-height: 2;
 }
 
-hr {
-  border-style: dotted none none;
-  width: 5%;
-  border-width: 7px;
-  color: #2b2e4a;
-}
-
-.contact-me {
-  line-height: 2;
-  padding: 50px;
-  background-color: #0f3460;
-}
-
-p {
-  color: #f6f6f6;
-  font-size: 20px;
-}
-
-.btn {
-  border-radius: 10px;
-  color: #1a1a2e;
-  text-decoration: none;
-  background-color: #f6f6f6;
+.sub-btn {
+  margin-top: 10px;
   padding: 10px;
-  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  color: #2b2e4a;
   font-size: 20px;
+  width: 150px;
+  height: 50px;
 }
 
-.bottom-container {
-  padding: 20px 0 20px;
-  background-color: #e94560;
-}
-
-.profile-link {
-  padding: 25px;
-  font-size: 16px;
-}
-
-.bottom-container a {
-  margin-top: 25px;
-  padding-top: 25px;
-  text-decoration: none;
-  color: white;
-}
-
-.bottom-container a:visited {
-  color: #f6f6f6;
-}
-
-.footer-text {
-  font-size: 10px;
+.sub-btn:hover {
+  opacity: 0.7;
 }
