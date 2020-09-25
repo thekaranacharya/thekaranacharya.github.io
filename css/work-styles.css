@@ -88,26 +88,36 @@ p {
 
 .middle-container {
   text-align: left;
-  padding: 25px;
   line-height: 1.5;
   background-color: #eeeeee;
-  /* color: #2b2e4a; */
+}
+
+.edu {
+  padding: 25px;
 }
 
 .research {
-  padding: 25px 0 25px;
+  padding: 25px;
+  background-color: #cf1b1b;
+}
+
+.research h2 {
+  color: #ffdbc5;
+}
+
+.research h3 {
+  color: #eeeeee;
 }
 
 .projects {
   background-color: #eeeeee;
-  /* padding: 25px; */
+  padding: 25px;
   text-align: left;
 }
 
 .project-row {
-  padding: 25px 10px 25px;
+  padding: 25px 0 25px;
 }
-
 
 .btn {
   border-radius: 10px;

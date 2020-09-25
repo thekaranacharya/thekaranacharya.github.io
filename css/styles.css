@@ -90,6 +90,19 @@ h4 {
 
 .profile {
   padding: 50px;
+  background-color: #cf1b1b;
+}
+
+.profile h2{
+  color: #eeeeee;
+}
+
+.profile h3 {
+  color: #1a1a2e;
+}
+
+.profile h4 {
+  color: #ffdbc5;
 }
 
 .dp {
