@@ -4,6 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>Education & Projects</title>
+
+  <!-- bootsrap css link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/work-styles.css">
   <link rel="icon" href="img/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&family=Sacramento&family=Syne&display=swap" rel="stylesheet">
@@ -11,27 +15,51 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179031934-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-179031934-1');
   </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="nav-bar">
 
-    <a href="index.html">
+  <!--  OLD NAVBAR
+ <div class="nav-bar">
+  <a href="index.html">
+    <img class="dp-icon" src="img/favicon-img.png" alt="programmer-icon">
+  </a>
+  <div class="nav-links">
+    <a href="work.html">education & projects</a>
+    <a href="life.html">life</a>
+    <a href="contact.html">contact me</a>
+  </div>
+</div> -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom">
+    <a class="navbar-brand" href="index.html">
       <img class="dp-icon" src="img/favicon-img.png" alt="programmer-icon">
     </a>
-    <div class="nav-links">
-      <a href="work.html">education & projects</a>
-      <a href="life.html">life</a>
-      <a href="contact.html">contact me</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinksCollapse" aria-controls="navLinksCollapse" aria-expanded="false" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navLinksCollapse">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="work.html">education & projects</a>
+        <a class="nav-link" href="life.html">life</a>
+        <a class="nav-link" href="contact.html">contact me</a>
+      </div>
     </div>
-
-  </div>
+  </nav>
 
   <div class="top-container">
 
@@ -44,34 +72,33 @@
 
     <div class="edu">
 
-    <h2>My Education</h2>
-    <ul>
+      <h2>My Education</h2>
+      <ul>
 
-      <li>
-        <h3>Savitribai Phule Pune University - Vishwakarma Institute of Information Technology, Pune</h3>
-      </li>
-      <p>
-        <strong>Computer Engineering, Bachelor of Engineering (B.E.)</strong><br>
-        <strong>GPA : 8.85 / 10</strong><br>
-        Stood <strong>6th</strong> across all college departments for a <strong>freshman year GPA - 9.7 / 10</strong>.<br>
-        AUG 2016 - PRESENT
-      </p>
-    </ul>
+        <li>
+          <h3>Savitribai Phule Pune University - Vishwakarma Institute of Information Technology, Pune</h3>
+        </li>
+        <p>
+          <strong>Computer Engineering, Bachelor of Engineering (B.E.)</strong><br>
+          <strong>GPA : 8.85 / 10</strong><br>
+          Stood <strong>6th</strong> across all college departments for a <strong>freshman year GPA - 9.7 / 10</strong>.<br>
+          AUG 2016 - PRESENT
+        </p>
+      </ul>
 
-    <ul>
+      <ul>
 
-      <li>
-        <h3>Goethe Institut - Max Müller Bhavan, Pune</h3>
-      </li>
-      <p>
-        <strong>Geothe Zertifikat - Level B2.1</strong><br>
-        DEC 2017 <br><br>
-        <strong>Proud recipient of the Kultusminister Konferenz Pädagogischer Austauschdienst(PAD) 2014 Scholarship.</strong><br>
-        Represented India at an International level in Germany.
-        Was <strong>one of the 8 students to be selected from India</strong> based on my German language skills.<br>
-        The said scholarship consisted of a fully-sponsored month-long tour through Germany. Comprised of a 2-week stay with a host family alongwith an attendance at a local school.
-      </p>
-    </ul>
+        <li>
+          <h3>Goethe Institut - Max Müller Bhavan, Pune</h3>
+        </li>
+        <p>
+          <strong>Geothe Zertifikat - Level B2.1</strong><br>
+          DEC 2017 <br><br>
+          <strong>Proud recipient of the Kultusminister Konferenz Pädagogischer Austauschdienst(PAD) 2014 Scholarship.</strong><br>
+          Represented India at an International level in Germany.
+          Was <strong>one of the 8 students to be selected from India</strong> based on my proficiency in German.<br>
+        </p>
+      </ul>
 
     </div>
 
@@ -79,7 +106,7 @@
     <div class="research">
       <h2>My Research Interests</h2>
       <h3>Deep Learning - Computer Vision, Natural Language Processing (NLP), Sequence Models & <br>
-          Cybersecurity
+        Cybersecurity
       </h3>
     </div>
 
@@ -98,12 +125,12 @@
         </p>
         <h4>Result:</h4>
         <p>
-        The model is able to detect and classify vehicles from both - images & videos with a
-        <strong>Mean Detection Probability - 90%</strong>! <br>
-        Following is the output on an image never seen by the model - <br><br>
-        <img class="result" src="img/output-4.jpg" alt="output-4"> <br><br>
-        As you can see, in such a crowded street, the model is able to detect a truck (even just the back of one),
-        a car, and multiple two-wheelers and rickshaws (with some <strong>probabilities over 96%!</strong>)
+          The model is able to detect and classify vehicles from both - images & videos with a
+          <strong>Mean Detection Probability - 90%</strong>! <br>
+          Following is the output on an image never seen by the model - <br><br>
+          <img class="result" src="img/output-4.jpg" alt="output-4"> <br><br>
+          As you can see, in such a crowded street, the model is able to detect a truck (even just the back of one),
+          a car, and multiple two-wheelers and rickshaws (with some <strong>probabilities over 96%!</strong>)
         </p>
       </div>
 
@@ -138,11 +165,11 @@
         <h4>Result:</h4>
         <img class="result" src="img/novel-poem.png" alt="novel-poem"> <br>
         <p>
-        "Then came a sailor" was the only set of words I provided to the trained model as a starting line.
-        The next 100 words have been generated solely by the network! <br>
-        P.S. If you look closely, there are very less repetitions in the predicted words. <br>
-        It's quite common to see a large number of repeated words in an NLP model prediction.
-        But here, some hyperparameters were tuned to minimise the number of repetitions.<br>
+          "Then came a sailor" was the only set of words I provided to the trained model as a starting line.
+          The next 100 words have been generated solely by the network! <br>
+          P.S. If you look closely, there are very less repetitions in the predicted words. <br>
+          It's quite common to see a large number of repeated words in an NLP model prediction.
+          But here, some hyperparameters were tuned to minimise the number of repetitions.<br>
         </p>
         <a class="btn" href="https://github.com/thekaranacharya/nlp-poetry-generation">
           <img src="img/github.png" alt=""> View on GitHub
@@ -161,9 +188,9 @@
           Want to understand recursion? <br> Head over now ⤵️<br>
         </p>
         <br>
-          <a class="btn" href="https://thekaranacharya.github.io">
-            Decoding Karan Acharya.
-          </a>
+        <a class="btn" href="https://thekaranacharya.github.io">
+          Decoding Karan Acharya.
+        </a>
 
       </div>
 
@@ -174,8 +201,8 @@
         <p>
           Performed a comparative study of the effects of different Keras layers - LSTMs, GRUs and Conv1D on
           the Sentiment140 dataset with 1.6M tweets.<br>
-        <strong>Tools & Frameworks used : TensorFlow-Keras </strong><br>
-      </p>
+          <strong>Tools & Frameworks used : TensorFlow-Keras </strong><br>
+        </p>
         <h4>Result:</h4>
         <p>The following result is achieved with the model with the set of layers - <br>
           <strong>Embedding - Dropout - Conv1D - MaxPooling1D - Bidirectional LSTM - 2 Dense layers.</strong>
@@ -191,7 +218,7 @@
 
     </div>
 
-</div>
+  </div>
 
 
 

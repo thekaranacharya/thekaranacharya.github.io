@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Contact Me</title>
+
+    <!-- bootsrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/contact-styles.css">
     <link rel="icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&family=Sacramento&family=Syne&display=swap" rel="stylesheet">
@@ -15,18 +19,41 @@
 
       gtag('config', 'UA-179031934-1');
     </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="nav-bar">
-      <a href="index.html">
-        <img class="dp-icon" src="img/favicon-img.png" alt="programmer-icon">
-      </a>
-      <div class="nav-links">
-        <a href="work.html">education & projects</a>
-        <a href="life.html">life</a>
-        <a href="contact.html">contact me</a>
+    <!--  OLD NAVBAR
+   <div class="nav-bar">
+    <a href="index.html">
+      <img class="dp-icon" src="img/favicon-img.png" alt="programmer-icon">
+    </a>
+    <div class="nav-links">
+      <a href="work.html">education & projects</a>
+      <a href="life.html">life</a>
+      <a href="contact.html">contact me</a>
+    </div>
+  </div> -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom">
+    <a class="navbar-brand" href="index.html">
+      <img class="dp-icon" src="img/favicon-img.png" alt="programmer-icon">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinksCollapse" aria-controls="navLinksCollapse" aria-expanded="false" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navLinksCollapse">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="work.html">education & projects</a>
+        <a class="nav-link" href="life.html">life</a>
+        <a class="nav-link" href="contact.html">contact me</a>
       </div>
     </div>
+  </nav>
 
     <div class="top-container">
       <h1>Contact Me</h1>

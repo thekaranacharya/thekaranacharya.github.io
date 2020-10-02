@@ -1,12 +1,14 @@
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
-  text-align: center;
+  /* text-align: center; */
 }
 
 a:hover {
   opacity: 0.7;
 }
+
+/* OLD NAVBAR
 
 .nav-bar {
   background-color: #1a1a2e;
@@ -18,16 +20,7 @@ a:hover {
   font-size: 20px;
 }
 
-.dp-icon {
-  position: absolute;
-  top: 25px;
-  left: 50px;
-  width: 60px;
-  height: 60px;
-}
-
-
-.nav-links {
+/* .nav-links {
   position: relative;
   display: inline-block;
   top: 50px;
@@ -38,13 +31,33 @@ a:hover {
   padding: 10px;
   text-decoration: none;
   color: #eeeeee;
+} */
+
+
+.navbar-custom {
+  background-color: #1a1a2e;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  padding: 10px 50px 0;
+  text-align: right;
+}
+
+.dp-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #eeeeee;
+  padding: 10px;
 }
 
 
 .top-container {
-  padding: 100px 25px 10px;
+  padding: 10px 25px 50px;
   background-color: #1a1a2e;
   line-height: 2;
+  text-align: center;
 }
 
 
@@ -60,6 +73,7 @@ h2 {
   font-family: 'Syne', sans-serif;
   font-size: 2rem;
   color: #cf1b1b;
+  line-height: 1.75;
 }
 
 
@@ -68,12 +82,14 @@ h3 {
   font-size: 1.5rem;
   font-weight: bolder;
   color: #900d0d;
+  line-height: 1.75;
 }
 
 h4 {
   font-size: 1.25rem;
   color: #1a1a2e;
   font-weight: bolder;
+  line-height: 1.75;
 }
 
 .middle-container {
@@ -125,6 +141,7 @@ input {
 .bottom-container {
   padding: 20px 0 20px;
   background-color: #900d0d;
+  text-align: center;
 }
 
 .profile-link {

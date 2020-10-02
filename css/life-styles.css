@@ -1,19 +1,14 @@
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
-  text-align: center;
-}
-
-hr {
-  border-style: dotted none none;
-  width: 5%;
-  border-width: 7px;
-  color: #423144;
+  /* text-align: center; */
 }
 
 a:hover {
   opacity: 0.7;
 }
+
+/* OLD NAVBAR
 
 .nav-bar {
   background-color: #1a1a2e;
@@ -25,16 +20,7 @@ a:hover {
   font-size: 20px;
 }
 
-.dp-icon {
-  position: absolute;
-  top: 25px;
-  left: 50px;
-  width: 60px;
-  height: 60px;
-}
-
-
-.nav-links {
+/* .nav-links {
   position: relative;
   display: inline-block;
   top: 50px;
@@ -45,13 +31,40 @@ a:hover {
   padding: 10px;
   text-decoration: none;
   color: #eeeeee;
+} */
+
+
+.navbar-custom {
+  background-color: #1a1a2e;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  padding: 10px 50px 0;
+  text-align: right;
+}
+
+.dp-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #eeeeee;
+  padding: 10px;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 7px;
+  color: #423144;
 }
 
 .top-container {
-  padding: 100px 25px 10px;
+  padding: 10px 25px 50px;
   background-color: #1a1a2e;
   line-height: 2;
   color: white;
+  text-align: center;
 }
 
 p {
@@ -91,7 +104,8 @@ h4 {
 .middle-container {
   line-height: 1.75;
   background-color: #eeeeee;
-  /* color: #1a1a2e; */
+  text-align: center;
+  padding: 10px;
 }
 
 .opening-quote {
@@ -177,6 +191,7 @@ h4 {
 .bottom-container {
   padding: 30px 0 20px;
   background-color: #900d0d;
+  text-align: center;
 }
 
 .profile-link {

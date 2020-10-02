@@ -1,12 +1,14 @@
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
-  text-align: center;
+  /* text-align: center; */
 }
 
 a:hover {
   opacity: 0.7;
 }
+
+/* OLD NAVBAR
 
 .nav-bar {
   background-color: #1a1a2e;
@@ -18,16 +20,7 @@ a:hover {
   font-size: 20px;
 }
 
-.dp-icon {
-  position: absolute;
-  top: 25px;
-  left: 50px;
-  width: 60px;
-  height: 60px;
-}
-
-
-.nav-links {
+/* .nav-links {
   position: relative;
   display: inline-block;
   top: 50px;
@@ -38,15 +31,33 @@ a:hover {
   padding: 10px;
   text-decoration: none;
   color: #eeeeee;
+} */
+
+
+.navbar-custom {
+  background-color: #1a1a2e;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  padding: 10px 50px 0;
+  text-align: right;
 }
 
+.dp-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #eeeeee;
+  padding: 10px;
+}
 
 .top-container {
-  padding: 100px 25px 10px;
+  padding: 10px 25px 50px;
   background-color: #1a1a2e;
   line-height: 2;
+  text-align: center;
 }
-
 
 h1 {
   margin: 25px auto 0;
@@ -86,6 +97,7 @@ h4 {
 
 .middle-container {
   background-color: #eeeeee;
+  text-align: center;
 }
 
 .profile {
@@ -95,14 +107,17 @@ h4 {
 
 .profile h2{
   color: #eeeeee;
+  line-height: 2;
 }
 
 .profile h3 {
   color: #1a1a2e;
+  line-height: 1.5;
 }
 
 .profile h4 {
   color: #ffdbc5;
+  line-height: 1.5;
 }
 
 .dp {
@@ -110,31 +125,43 @@ h4 {
   height: 250px;
 }
 
-.images {
-  width: 150px;
-  height: 150px;
-  float: right;
-  margin-left: 50px;
-}
-
-.dl-img {
-  width: 150px;
-  height: 150px;
-  margin-right: 50px;
-  float: left;
-}
-
 .skills {
   padding-top: 25px;
 }
 
-.skill-row {
+/* .skill-row {
   width: 50%;
   margin: 50px auto 50px;
   padding: 20px;
   text-align: left;
   line-height: 2;
+} */
+
+.row {
+  margin: 50px auto 50px;
+  line-height: 2;
+  padding: 25px;
+  /* text-align: center; */
 }
+
+/* .dl {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 25px;
+} */
+
+.text {
+  text-align: left;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
 
 hr {
   border-style: dotted none none;
@@ -173,6 +200,7 @@ p {
 .bottom-container {
   padding: 20px 0 20px;
   background-color: #900d0d;
+  text-align: center;
 }
 
 .profile-link {
