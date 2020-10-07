@@ -141,6 +141,21 @@ h4 {
   padding-bottom: 10px;
 }
 
+.carousel-item {
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+.poster {
+  border-radius: 10px;
+  width: 80%;
+}
+
+.by-dp {
+  border-radius: 50%;
+  width: 10%;
+}
+
 .book {
   width: 100px;
   height: 100px;
