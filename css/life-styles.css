@@ -142,18 +142,18 @@ h4 {
 }
 
 .carousel-item {
-  padding: 25px;
-  margin-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .poster {
   border-radius: 10px;
   width: 80%;
+  margin-bottom: 10px;
 }
 
 .by-dp {
-  border-radius: 50%;
-  width: 10%;
+  border-radius: 100%;
+  width: 7%;
 }
 
 .book {
