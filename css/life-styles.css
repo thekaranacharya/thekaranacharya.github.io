@@ -141,8 +141,8 @@ h4 {
   padding-bottom: 10px;
 }
 
-.carousel-item {
-  padding-bottom: 25px;
+.carousel-inner {
+  padding: 50px;
 }
 
 .poster {
@@ -152,8 +152,20 @@ h4 {
 }
 
 .by-dp {
-  border-radius: 100%;
-  width: 10%;
+  border-radius: 50%;
+  width: 8%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 15px;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23900d0d' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23900d0d' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 .book {
