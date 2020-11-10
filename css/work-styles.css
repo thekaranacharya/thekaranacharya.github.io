@@ -115,18 +115,18 @@ p {
   line-height: 2;
 }
 
-.research {
+.interests {
   padding: 25px;
   background-color: #cf1b1b;
 }
 
-.research h2 {
-  color: #ffdbc5;
+.interests h2 {
+  color: #eeeeee;
   line-height: 2;
 }
 
-.research h3 {
-  color: #eeeeee;
+.interests h3 {
+  color: #ffdbc5;
 }
 
 .projects {
@@ -149,8 +149,7 @@ p {
 }
 
 .result {
-  width: 70%;
-  height: 70%;
+  width: 95%;
   border-radius: 10px;
 }
 
