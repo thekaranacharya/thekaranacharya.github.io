@@ -1,70 +1,8 @@
+/* HTML elements */
+
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
-  /* text-align: center; */
-}
-
-a:hover {
-  opacity: 0.7;
-}
-
-/* OLD NAVBAR
-
-.nav-bar {
-  background-color: #1a1a2e;
-  width: 100%;
-  position: fixed;
-  padding-bottom: 90px;
-  text-align: right;
-  font-family: 'Syne', sans-serif;
-  font-size: 20px;
-}
-
-/* .nav-links {
-  position: relative;
-  display: inline-block;
-  top: 50px;
-  right: 75px;
-}
-
-.nav-links a {
-  padding: 10px;
-  text-decoration: none;
-  color: #eeeeee;
-} */
-
-
-.navbar-custom {
-  background-color: #1a1a2e;
-  font-family: 'Syne', sans-serif;
-  font-size: 20px;
-  padding: 10px 50px 0;
-  text-align: right;
-}
-
-.dp-icon {
-  width: 60px;
-  height: 60px;
-}
-
-.navbar-custom .navbar-nav .nav-link {
-  color: #eeeeee;
-  padding: 10px;
-}
-
-
-.top-container {
-  padding: 10px 25px 50px;
-  background-color: #1a1a2e;
-  line-height: 2;
-  text-align: center;
-}
-
-hr {
-  border-style: dotted none none;
-  width: 5%;
-  border-width: 7px;
-  color: #423144;
 }
 
 h1 {
@@ -101,11 +39,77 @@ p {
   color: #423144;
 }
 
-.middle-container {
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 7px;
+  color: #423144;
+}
+
+
+/* OLD NAVBAR
+
+.nav-bar {
+  background-color: #1a1a2e;
+  width: 100%;
+  position: fixed;
+  padding-bottom: 90px;
+  text-align: right;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+}
+
+/* .nav-links {
+  position: relative;
+  display: inline-block;
+  top: 50px;
+  right: 75px;
+}
+
+.nav-links a {
+  padding: 10px;
+  text-decoration: none;
+  color: #eeeeee;
+} */
+
+
+/* Bootstrap Navbar */
+
+.navbar-custom {
+  background-color: #1a1a2e;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  padding: 10px 50px 0;
+  text-align: right;
+}
+
+.dp-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #eeeeee;
+  padding: 10px;
+}
+
+/* Page heading container */
+
+.heading-container {
+  padding: 10px 25px 50px;
+  background-color: #1a1a2e;
+  line-height: 2;
+  text-align: center;
+}
+
+/* main container */
+
+.main-container {
   text-align: left;
   line-height: 1.5;
   background-color: #eeeeee;
 }
+
 
 .edu {
   padding: 25px;
@@ -139,19 +143,21 @@ p {
   padding: 25px 0 25px;
 }
 
-.btn {
+/* .btn {
   border-radius: 10px;
   background-color: #f6f6f6;
   text-decoration: none;
   color: #1a1a2e;
   font-weight: bold;
   padding: 10px;
-}
+} */
 
 .result {
   width: 95%;
   border-radius: 10px;
 }
+
+/* Footer container */
 
 .bottom-container {
   padding: 20px 0 20px;
@@ -160,8 +166,7 @@ p {
 }
 
 .profile-link {
-  padding: 25px;
-  font-size: 16px;
+  padding: 15px;
 }
 
 .bottom-container a {
@@ -171,8 +176,8 @@ p {
   color: inherit;
 }
 
-.bottom-container a:visited {
-  color: #f6f6f6;
+.bottom-container a:hover {
+  opacity: 0.7;
 }
 
 .footer-text {
