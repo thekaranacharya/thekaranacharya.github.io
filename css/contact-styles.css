@@ -3,7 +3,6 @@
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
-  /* text-align: center; */
 }
 
 h1 {
@@ -67,6 +66,10 @@ input {
   color: #eeeeee;
 } */
 
+/* Pan-page consistent padding (except navbar and main heading) */
+.pad {
+  padding: 2% 3%;
+}
 
 /* Bootstrap Navbar */
 
@@ -90,7 +93,7 @@ input {
 
 /* Heading- top container */
 
-.top-container {
+.main-heading {
   padding: 10px 25px 50px;
   background-color: #1a1a2e;
   line-height: 2;
@@ -100,13 +103,12 @@ input {
 /* Middle container */
 
 .middle-container {
-  padding: 10px;
   text-align: left;
   background-color: #eeeeee;
 }
 
 .contact-form {
-  padding: 25px 0 25px;
+  padding: 2% 0 2%;
   font-family: inherit;
   color: #423144;
 }
@@ -115,7 +117,6 @@ input {
 /* Footer */
 
 .bottom-container {
-  padding: 20px 0 20px;
   background-color: #900d0d;
   text-align: center;
 }

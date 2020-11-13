@@ -72,6 +72,10 @@ hr {
   color: #eeeeee;
 } */
 
+/* Pan-page consistent padding (except navbar and main heading) */
+.pad {
+  padding: 2% 3%;
+}
 
 /* Bootstrap Navbar */
 
@@ -93,9 +97,9 @@ hr {
   padding: 10px;
 }
 
-/* Page heading container */
+/* main heading container */
 
-.heading-container {
+.main-heading {
   padding: 10px 25px 50px;
   background-color: #1a1a2e;
   line-height: 2;
@@ -111,16 +115,11 @@ hr {
 }
 
 
-.edu {
-  padding: 25px;
-}
-
 .edu h2 {
   line-height: 2;
 }
 
 .interests {
-  padding: 25px;
   background-color: #cf1b1b;
 }
 
@@ -135,32 +134,21 @@ hr {
 
 .projects {
   background-color: #eeeeee;
-  padding: 25px;
   text-align: left;
 }
 
 .project-row {
-  padding: 25px 0 25px;
+  padding: 2% 0 5%;
 }
-
-/* .btn {
-  border-radius: 10px;
-  background-color: #f6f6f6;
-  text-decoration: none;
-  color: #1a1a2e;
-  font-weight: bold;
-  padding: 10px;
-} */
 
 .result {
   width: 95%;
   border-radius: 10px;
 }
 
-/* Footer container */
+/* Footer */
 
 .bottom-container {
-  padding: 20px 0 20px;
   background-color: #900d0d;
   text-align: center;
 }

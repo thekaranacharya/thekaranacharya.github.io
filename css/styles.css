@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
+  text-align: center;
 }
 
 h1 {
@@ -69,6 +70,11 @@ hr {
   color: #eeeeee;
 } */
 
+/* Pan-page consistent padding (except navbar and main heading) */
+.pad {
+  padding: 2% 3%;
+}
+
 /* Bootstrap Navbar */
 
 .navbar-custom {
@@ -89,13 +95,14 @@ hr {
   padding: 10px;
 }
 
+
 /* Heading - top container */
 
 .top-container {
   padding: 10px 25px 50px;
   background-color: #1a1a2e;
   line-height: 2;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .subtitle {
@@ -117,7 +124,6 @@ hr {
   /* Profile section */
 
 .profile {
-  padding: 50px;
   background-color: #cf1b1b;
 }
 
@@ -164,9 +170,8 @@ hr {
 } */
 
 .row {
-  margin: 50px auto 50px;
+  padding: 2% 0 5%;
   line-height: 2;
-  padding: 25px;
 }
 
 
@@ -184,7 +189,6 @@ hr {
 
 .contact-me {
   line-height: 2;
-  padding: 50px;
   background-color: #cf1b1b;
 }
 
@@ -196,7 +200,6 @@ hr {
 /* Footer container */
 
 .bottom-container {
-  padding: 20px 0 20px;
   background-color: #900d0d;
   text-align: center;
 }
