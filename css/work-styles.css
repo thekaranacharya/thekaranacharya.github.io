@@ -29,9 +29,15 @@ h3 {
 }
 
 h4 {
+  font-family: 'Syne', sans-serif;
   font-size: 1.25rem;
   color: #1a1a2e;
   font-weight: bolder;
+}
+
+h5 {
+  font-family: 'Syne', sans-serif;
+  color: #900d0d;
 }
 
 p {
@@ -115,20 +121,20 @@ hr {
 }
 
 
-.edu h2 {
+/* .sects {
   line-height: 2;
-}
+} */
 
-.interests {
+.skills {
   background-color: #cf1b1b;
 }
 
-.interests h2 {
+.skills h2 {
   color: #eeeeee;
   line-height: 2;
 }
 
-.interests h3 {
+.skills h3 {
   color: #ffdbc5;
 }
 
