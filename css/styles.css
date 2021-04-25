@@ -72,7 +72,7 @@ hr {
 
 /* Pan-page consistent padding (except navbar and main heading) */
 .pad {
-  padding: 2% 3%;
+  padding: 5% 3%;
 }
 
 /* Bootstrap Navbar */
@@ -149,10 +149,6 @@ hr {
 
   /* Skills section */
 
-.skills {
-  padding-top: 25px;
-}
-
 /* .skill-row {
   width: 50%;
   margin: 50px auto 50px;
@@ -170,18 +166,20 @@ hr {
 } */
 
 .row {
-  padding: 2% 0 5%;
+  padding: 2% 0 2%;
   line-height: 2;
+  margin: 2%;
 }
-
 
 .text {
   text-align: left;
 }
 
 .image {
-  width: 30%;
-  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
   /* Contact section */
