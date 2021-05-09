@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Syne', sans-serif;
 }
 
 h1 {
@@ -14,7 +14,6 @@ h1 {
 
 h2 {
   margin: 10px auto 0;
-  font-family: 'Syne', sans-serif;
   font-size: 2rem;
   color: #1a1a2e;
   text-decoration: underline;
@@ -22,21 +21,18 @@ h2 {
 
 
 h3 {
-  font-family: 'Syne', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
   color: #900d0d;
 }
 
 h4 {
-  font-family: 'Syne', sans-serif;
   font-size: 1.25rem;
   color: #1a1a2e;
   font-weight: bolder;
 }
 
 h5 {
-  font-family: 'Syne', sans-serif;
   color: #900d0d;
 }
 
@@ -80,14 +76,13 @@ hr {
 
 /* Pan-page consistent padding (except navbar and main heading) */
 .pad {
-  padding: 2% 3%;
+  padding: 5% 3%;
 }
 
 /* Bootstrap Navbar */
 
 .navbar-custom {
   background-color: #1a1a2e;
-  font-family: 'Syne', sans-serif;
   font-size: 20px;
   padding: 10px 50px 0;
   text-align: right;

@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Syne', sans-serif;
 }
 
 h1 {
@@ -14,7 +14,6 @@ h1 {
 
 h2 {
   margin: 10px auto 0;
-  font-family: 'Syne', sans-serif;
   font-size: 2rem;
   color: #cf1b1b;
   line-height: 1.75;
@@ -22,7 +21,6 @@ h2 {
 
 
 h3 {
-  font-family: 'Syne', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
   color: #900d0d;
@@ -68,14 +66,13 @@ input {
 
 /* Pan-page consistent padding (except navbar and main heading) */
 .pad {
-  padding: 2% 3%;
+  padding: 5% 3%;
 }
 
 /* Bootstrap Navbar */
 
 .navbar-custom {
   background-color: #1a1a2e;
-  font-family: 'Syne', sans-serif;
   font-size: 20px;
   padding: 10px 50px 0;
   text-align: right;
@@ -106,6 +103,7 @@ input {
   text-align: left;
   background-color: #eeeeee;
 }
+
 
 .contact-form {
   padding: 2% 0 2%;
